@@ -2,5 +2,5 @@ Run, Kotlin, Run
 ================
 
 ```{sh}
-gradlew run
+./gradlew run
 ```
