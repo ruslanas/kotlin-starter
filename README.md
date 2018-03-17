@@ -1,4 +1,4 @@
-Run, Kotlin, Run
+Run, Kotlin, run
 ================
 
 Prerequisites
@@ -9,13 +9,13 @@ Java JDK
 Windows
 -------
 
-```
-gradlew run
+```{sh}
+gradlew clean test run
 ```
 
 Linux
 -----
 
 ```{sh}
-./gradlew run
+./gradlew clean test run
 ```

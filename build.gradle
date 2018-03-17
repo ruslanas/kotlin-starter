@@ -1,4 +1,5 @@
 buildscript {
+    
     ext.kotlin_version = '1.2.30'
 
     repositories {
@@ -18,7 +19,7 @@ plugins {
 apply plugin: 'application'
 
 sourceSets {
-    main.kotlin.srcDirs += "./src"
+    main.kotlin.srcDirs += "./src/main/kotlin"
 }
 
 repositories {
@@ -26,7 +27,10 @@ repositories {
 }
 
 dependencies {
+    compile "org.jetbrains.kotlin:kotlin-reflect"
     compile "org.jetbrains.kotlin:kotlin-stdlib"
+    
+    testCompile 'io.kotlintest:kotlintest:2.0.7'
 }
 
-mainClassName = "app.HelloKt"
+mainClassName = "app.MainKt"
