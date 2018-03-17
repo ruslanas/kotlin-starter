@@ -1,5 +1,3 @@
-package app
-
 fun main(args: Array<String>) {
     val alice = Person("Alice")
     val bob = Person()

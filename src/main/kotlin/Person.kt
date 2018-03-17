@@ -1,6 +1,4 @@
-package app
-
-class Person(val name: String? = null) {
+class Person(private val name: String? = null) {
 
     fun sayHello(person: Person?) {
         val greeting = "Hello, " + (person?.name ?: "stranger") + "!"
